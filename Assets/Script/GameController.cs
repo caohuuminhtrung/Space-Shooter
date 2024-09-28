@@ -76,7 +76,7 @@ public class GameController : MonoBehaviour
     public void GameOver()
     {
         gameOverText.enabled = true;
-        gameOverText.text = "GAMEOVER!";
+        gameOverText.text = "GAME OVER!";
         gameOver = true;
     }
 
